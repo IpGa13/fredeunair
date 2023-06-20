@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background-color: #2a2a2a;
+    font-family: Helvetica, sans-serif;
+
+    
+}
+
+.header_wrapper {
+    background-color: #313131;
+    text-align: center;
+}
+
+.header_wrapper h1 {
+    animation: flying ease-in-out 14s infinite;
+}
+
+@keyframes flying{
+    0% {
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(5px,25px);
+    }
+
+    50% {
+        transform: translate(-5px,0px);
+    }
+
+    75%{
+        transform: translate(5px,25px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
