@@ -22,11 +22,25 @@
             <h3>What is Fredeun Air?</h3>
             <p>Fredeun Air is a private flying organisation owned by a person who just started his pilot training.</p>
             <h3>How to get a flight?</h3>
-            <p>Paypal me 50 bucks janhendrikreinheimer@icloud.com</p>
-            <h3>Is this legal?</h3>
-            <p>Well, yes. But actually no. Look u wanna fly or no?</p>
+            <p>Currently you cannot. What you can do is donate to me to help out and maybe get the first availability date back.</p>
+            <div id="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'5YX8MDCQ3W33Q',
+            image: {
+            src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+            alt:'Donate with PayPal button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            </script>
+            </div>
+
             <h3>When are the first available flights?</h3>
-            <p>All availability starts 1/1/2025</p>
+            <p>All availability starts 1/6/2025</p>
         </div>
 
         <div class="footer_wrapper">
