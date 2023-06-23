@@ -51,3 +51,7 @@ a:hover {
     border: 1px solid white;
     background-color:#414141;
 }
+
+.content_wrapper {
+    max-width: 65%;
+}
